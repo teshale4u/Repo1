@@ -1,0 +1,72 @@
+CREATE NEW DIRECTORY
+-----------------------------
+C:\Users\Crowns\Documents\MyProjects>mkdir MyRepo
+
+CHANGE TO NEW DIRECTORY
+------------------------------
+C:\Users\Crowns\Documents\MyProjects>cd Repo1
+
+INITIALIZE THE GIT REPOSITORY
+----------------------------------------
+C:\Users\Crowns\Documents\MyProjects\Repo1>git init
+
+
+CREATE NEW File IN THE NEW REPOSITORY
+-----------------------------------------
+
+CHECK THE STATUS
+---------------------------------
+C:\Users\Crowns\Documents\MyProjects\Repo1>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Testfile1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ADD the NEW FILE TO STAGING
+-----------------------------------
+C:\Users\Crowns\Documents\MyProjects\Repo1>git add Testfile1.txt
+
+CHECK THE STATUS
+---------------------------------
+C:\Users\Crowns\Documents\MyProjects\Repo1>git status
+
+
+SET USER-EMAIL ANG USER NAME VIA Globla CONFIG
+------------------------------------------------------
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+
+C:\Users\Crowns\Documents\MyProjects\Repo1>git config --global user.email "teshale4u@gmail.com"
+
+C:\Users\Crowns\Documents\MyProjects\Repo1>git config --global user.name "teshale4u"
+
+COMMIT THE FILE TO THE LOCAL  REPO
+----------------------------------------
+C:\Users\Crowns\Documents\MyProjects\Repo1>git commit -m "New file created"
+
+
+CHECK THE STATUS
+---------------------------------
+C:\Users\Crowns\Documents\MyProjects\Repo1>git status
+On branch master
+nothing to commit, working tree clean
+
+CREATE BRANCH
+---------------------
+C:\Users\Crowns\Documents\MyProjects\Repo1>git branch -M main
+
+ADD REMOTE
+-------------------------------------------------
+C:\Users\Crowns\Documents\MyProjects\Repo1>git remote add origin https://github.com/teshale4u/Repo1.git
+
+push an existing repository from the command line
+----------------------------------------------------------------------
+C:\Users\Crowns\Documents\MyProjects\Repo1>git push -u origin main
+C:\Users\Crowns\Documents\MyProjects\Repo1>git status
