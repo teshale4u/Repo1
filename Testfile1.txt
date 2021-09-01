@@ -40,8 +40,14 @@ SET USER-EMAIL ANG USER NAME VIA Globla CONFIG
 ------------------------------------------------------
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
+=====================How to replace ====================
+ git config --global --replace-all user.email "you@example.com"
+  git config --global --replace-all user.name "Your Name"
+=======================How to remove===================
+  git config --global --unset user.email
+  git config --global --unset user.name 
 
-
+================================================
 
 C:\Users\Crowns\Documents\MyProjects\Repo1>git config --global user.email "teshale4u@gmail.com"
 
