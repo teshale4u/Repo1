@@ -1,3 +1,21 @@
+
+SET USER-EMAIL AND USER NAME VIA Globla CONFIG
+===================================================================================================================================
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+=====================How to replace ====================
+ git config --global --replace-all user.email "you@example.com"
+  git config --global --replace-all user.name "Your Name"
+=======================How to remove===================
+  git config --global --unset user.email
+  git config --global --unset user.name 
+///////////////////////////////////////////////////////////////
+C:\Users\Crowns\Documents\MyProjects\Repo1>git config --global user.email "teschale4u@gmail.com"
+
+C:\Users\Crowns\Documents\MyProjects\Repo1>git config --global user.name "teschale4u"
+=======================================================================================================================================
+
+
 CREATE NEW DIRECTORY
 -----------------------------
 C:\Users\Crowns\Documents\MyProjects>mkdir MyRepo
@@ -35,24 +53,6 @@ CHECK THE STATUS
 ---------------------------------
 C:\Users\Crowns\Documents\MyProjects\Repo1>git status
 
-
-SET USER-EMAIL ANG USER NAME VIA Globla CONFIG
-------------------------------------------------------
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-=====================How to replace ====================
- git config --global --replace-all user.email "you@example.com"
-  git config --global --replace-all user.name "Your Name"
-=======================How to remove===================
-  git config --global --unset user.email
-  git config --global --unset user.name 
-
-================================================
-
-C:\Users\Crowns\Documents\MyProjects\Repo1>git config --global user.email "teshale4u@gmail.com"
-
-C:\Users\Crowns\Documents\MyProjects\Repo1>git config --global user.name "teshale4u"
-
 COMMIT THE FILE TO THE LOCAL  REPO
 ----------------------------------------
 C:\Users\Crowns\Documents\MyProjects\Repo1>git commit -m "New file created"
@@ -76,3 +76,9 @@ push an existing repository from the command line
 ----------------------------------------------------------------------
 C:\Users\Crowns\Documents\MyProjects\Repo1>git push -u origin main
 C:\Users\Crowns\Documents\MyProjects\Repo1>git status
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+CLONE REMOTE REMOTE REPOSITORY
+----------------------------------------------
+git clone https://github.com/teshale4u/Repo1.git
+
+
