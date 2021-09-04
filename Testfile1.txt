@@ -84,3 +84,5 @@ git clone https://github.com/teshale4u/Repo1.git
 
 #update from myBranch change1
 #update from myBranch change2
+#hisBranch chng1
+#hisBranch chng2
