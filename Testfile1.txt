@@ -82,7 +82,28 @@ CLONE REMOTE REMOTE REPOSITORY
 git clone https://github.com/teshale4u/Repo1.git
 
 
-#update from myBranch change1
-#update from myBranch change2
-#hisBranch chng1
-#hisBranch chng2
+How to solve merge conflicts
+++++++++++++++++++++++++++++++++++++++++++++
+    show the  existing ranch 
+      git branche
+
+Create branche
+  git branch [branchname]
+      git branch myBranchname
+      git branch hisBranchname
+
+CHECKOUT THE BRANCH
+  	git checkout hisBranchname
+	  git add filename
+	  git commit -m 'comment note to hisBranche'
+----------------------------------------
+	git checkout myBranchname
+	git add filename
+	git commit -m "comment note to myBrancheN"
+
+RESOLVE MERGE CONFLICTS
+first checkout to the branch into you wanted to merge in 
+
+  git merge hisBranchname
+
+  
